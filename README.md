@@ -1,1 +1,1 @@
-vprognoza.herokuapp.com
+https://vprognoza.herokuapp.com
