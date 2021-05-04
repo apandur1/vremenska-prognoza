@@ -57,7 +57,7 @@ function App() {
                     </div>
                     <div className="row justify-content-center">
                         <input type="text" onChange={inputHandler} onKeyPress={enterHandler} placeholder={"Grad"} id={"inputGrad"}/>
-                        <button onClick={submitHandler}>Potvrdi</button>
+                        <button className={"btn-primary"} onClick={submitHandler}>Potvrdi</button>
                     </div>
 
                     {apiData.main ? (
